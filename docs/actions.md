@@ -200,7 +200,7 @@ class Doubler {
 -   `runInAction(fn)`
 
 해당 유틸리티를 사용하여 즉시 호출되는 임시 action을 생성할 수 있습니다. 비동기 프로세스에서 유용하게 사용하실 수 있습니다. 
-예를 들어 [위의 코드 블록](#examples)을 확인하세요.
+예를 들어 [위의 코드 블록](#예시)을 확인하세요.
 
 ## action 및 상속
 
@@ -410,7 +410,7 @@ flow 매커니즘은 프라미스가 해결될 때 generator가 계속 진행되
 2. `async` 대신  `function *`을 사용합니다.
 3. `await` 대신 `yield`를 사용합니다.
 
-[`flow` + generator function](#asynchronous-actions) 예제에서 실제로 어떻게 사용하는지 확인해보세요.
+[`flow` + generator function](#비동기-action) 예제에서 실제로 어떻게 사용하는지 확인해보세요.
 
 `flowResult` 함수는 TypeScript를 사용할 때만 필요합니다.
 메서드를 `flow`로 데코레이팅하기 때문에 반환된 generator는 프라미스로 래핑 됩니다.
